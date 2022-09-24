@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@300&family=Darker+Grotesque&family=Poppins:ital,wght@1,300&family=Work+Sans&display=swap');
+
+*{font-family: 'Poppins', sans-serif;
+  margin: 0%;
+  padding: 0%;
+}
+
+/*tamaño desktop*/
+
+.divBody{
+     font-size:large;
+     display:grid;
+     width:100;
+     grid-template-rows: auto 1fr auto;
+     background-image:linear-gradient(to left bottom, #ecb5e3, #d6bff6, #bbc9ff, #a1d2ff, #8edafb, #91dcfc, #95ddfd, #98dffe, #aedbff, #c8d6ff, #e2d1ff, #f8cdf4);
+    } 
+.logoNav{
+    display: flex;
+    justify-content:space-around;
+    background-color: #f8cdf43a;
+
+}
+.encabezadoLogo{
+    
+    margin-top: 0%;
+    width: 30%;
+    
+}   
+.h1Principal{
+
+    text-align: center;
+    margin: 5%;
+ }
+a{
+    
+    text-decoration: none;
+    display: inline-block;
+    margin: 3.5%;
+     
+}
+
+.quedado{
+    padding: 3.5%;
+    width: 80%;
+    text-align: right;
+    top: 0px;
+    z-index: 10;
+     
+}
+
+.principal{
+    text-align: center;
+    padding: 20px;
+    display: flex;
+       
+}
+.imagenes1{ 
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+}
+.conoceme{ 
+    width: 45%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;  
+
+}
+.whatsapp{
+position: fixed;
+bottom: 10px;
+right: 10px;
+}
+      
+.listaNavegacion2{
+    display: flex;
+    justify-content: space-evenly;
+
+
+
+}
+.redes a{
+    margin: 3.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.ubicacion{
+margin-bottom: 2%;
+}
+
+/*animaciones*/
+
+.whatsapp2:hover{
+    transform: rotate(30deg);
+    transition: rotate 2s;
+} 
+
+.mail:hover{
+    transform: rotate(-30deg);
+    transition: rotate 2s;
+} 
+.instagram:hover{
+    transform: rotate(30deg);
+    transition: rotate 2s;
+} 
+
+.facebook:hover{
+    transform: rotate(-30deg);
+    transition: rotate 2s;
+} 
+
+.link1:hover{
+    transform: scale(1.5, 1.5);
+    transition: scale 2s;
+} 
+.link2:hover{
+    transform: scale(1.5, 1.5);
+    transition: scale 2s;
+} 
+.link3:hover{
+    transform: scale(1.5, 1.5);
+    transition: scale 2s;
+} 
+
+.link4:hover{
+    transform: scale(1.5, 1.5);
+    transition: scale 2s;
+} 
+
+.link5:hover{
+    transform: scale(1.5, 1.5);
+    transition: scale 2s;
+} 
+
+/*tamaño smartphone*/ 
+@media screen and (max-width:480px) {
+   
+    .divBody{
+        display: grid;
+        width: 100%;
+        grid-template-rows: auto auto auto;    
+    }
+    .main{
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: 100%;
+        margin: 2rem;
+    }
+} 
+
+/*tamaño tablet*/
+
+@media screen and (max-width:768px) {
+   
+    .divBody{
+        display: grid;
+        width: 100%;
+        grid-template-rows: auto auto auto;    
+    }
+    .main{
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: 100%;
+        margin: 2rem;
+      }
+} 
+
+/*pagina belleza*/
+.main{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(4, 25%);
+    margin: 2rem;
+  }
+  
+  
+  .visual {
+    height: 100px;
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+  
+  .card {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    padding: 1rem;
+    align-items: center;
+ }
+h1 {
+    font-size: 1.5rem;
+}
+.h4{
+    font-size: 0,8rem;
+    margin: 0,5rem;
+}
