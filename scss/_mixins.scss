@@ -1,0 +1,30 @@
+@mixin flex-row-center{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+}
+
+@mixin flex-column-center{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+@mixin flex-direction-center($direction){
+    display:flex;
+    flex-direction:$direction;
+    justify-content:center;
+}
+
+@mixin flex-direction-justificar($direction,$justify:$center){
+    display:flex;
+    flex-direction:$direction;
+    justify-content:$justify;
+}
+
+@mixin grid-columns-row($columns,$row){
+    display:grid;
+    grid-template-columns:repeat($columns, 1fr);
+    grid-template-rows:repeat($row, 1fr);
+}
+
