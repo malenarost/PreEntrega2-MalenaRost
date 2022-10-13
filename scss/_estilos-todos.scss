@@ -12,6 +12,7 @@
       display: flex;
       justify-content: center;
       .navegador{
+          @include flex-justificar(map-get($map-flex,space-around)); 
           background-image: linear-gradient(to right top, #86b9bbaf, #789da8aa, #96b3c3af, #a3b0c2af, #9b9bada4, #e5e6ff, #d6e8ff, #c5ebff, #b7eefe, #aef0f2);
       }
       .logo{
@@ -27,13 +28,16 @@
           right: 10px;
           }
       .ubicacion{
+          @include flex-justificar(map-get($map-flex,center)); 
           margin-bottom: 2%;
           .mapa{
               margin-bottom: 10rem;
+              
                }
               }    
       .redes{
-          /*animaciones*/
+          @include flex-justificar(map-get($map-flex,center)); 
+
           .whatsapp2{
               &:hover{
                   transform: rotate(30deg);

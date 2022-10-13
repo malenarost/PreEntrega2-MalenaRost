@@ -1,3 +1,6 @@
+/*dado a que mi proyecto se realizo en su totalidad con boostrap, por indicaciones de la profe, utilizaré un mixin y una variable ara que pueda ser evaluado.*/ 
+
+
 @mixin flex-row-center{
 	display:flex;
 	flex-direction:row;
@@ -16,9 +19,10 @@
     justify-content:center;
 }
 
-@mixin flex-direction-justificar($direction,$justify:$center){
+
+
+@mixin flex-justificar($justify){
     display:flex;
-    flex-direction:$direction;
     justify-content:$justify;
 }
 

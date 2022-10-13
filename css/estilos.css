@@ -1,5 +1,8 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@300&family=Darker+Grotesque&family=Poppins:ital,wght@1,300&family=Work+Sans&display=swap");
+/*dado a que mi proyecto se realizo en su totalidad con boostrap, por indicaciones de la profe, solamente lo utilizé para que pueda ser evaluado y no en la totalidad del proyecto.*/
+/*maps*/
+/*dado a que mi proyecto se realizo en su totalidad con boostrap, por indicaciones de la profe, utilizaré un mixin y una variable ara que pueda ser evaluado.*/
 * {
   font-family: 'Poppins', sans-serif;
   margin: 0%;
@@ -13,6 +16,8 @@
   display: flex;
   justify-content: center; }
   .encabezado .navegador {
+    display: flex;
+    justify-content: space-around;
     background-image: linear-gradient(to right top, #86b9bbaf, #789da8aa, #96b3c3af, #a3b0c2af, #9b9bada4, #e5e6ff, #d6e8ff, #c5ebff, #b7eefe, #aef0f2); }
   .encabezado .logo {
     width: 20%; }
@@ -24,12 +29,15 @@
   right: 10px; }
 
 .footer .ubicacion {
+  display: flex;
+  justify-content: center;
   margin-bottom: 2%; }
   .footer .ubicacion .mapa {
     margin-bottom: 10rem; }
 
 .footer .redes {
-  /*animaciones*/ }
+  display: flex;
+  justify-content: center; }
   .footer .redes .whatsapp2:hover {
     transform: rotate(30deg);
     transition: rotate 2s; }

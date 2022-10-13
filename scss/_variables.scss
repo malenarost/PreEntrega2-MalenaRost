@@ -1,13 +1,18 @@
+
+/*dado a que mi proyecto se realizo en su totalidad con boostrap, por indicaciones de la profe, solamente lo utilizé para que pueda ser evaluado y no en la totalidad del proyecto.*/
+
 $fuentes_grosor:bold;
 $bordes:5px solid white;
 $flex : flex;
 $center:center;
-$row: row;
+$row: row;                                      
 $space-around :space-around;
 $space-between:space-between;
 $column:column;
 $space-evenly:space-evenly;
 $text-align: center;
+
+
 
 /*maps*/
 $bordes:(
@@ -36,16 +41,3 @@ $fuentes:(
     black:900
 );
 
-$sizes:(
-    catorce: 14px,
-    16 : 16px,
-    20 :20px,
-    10 : 10px
-);
-
-$estilos: (
-  color: #3673D9,
-  centro: center,
-  tFuente: 35px,
-  1rem : 1rem
-);
