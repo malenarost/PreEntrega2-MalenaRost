@@ -1,6 +1,10 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@300&family=Darker+Grotesque&family=Poppins:ital,wght@1,300&family=Work+Sans&display=swap");
+<<<<<<< HEAD
+/*dado a que mi proyecto se realizo en su totalidad con boostrap, solamente lo utilizé para que pueda ser evaluado y no en la totalidad del proyecto.*/
+=======
 /*dado a que mi proyecto se realizo en su totalidad con boostrap, por indicaciones de la profe, solamente lo utilizé para que pueda ser evaluado y no en la totalidad del proyecto.*/
+>>>>>>> c118dbcd9fb5427f0619c41b0e01b2701f11b6e8
 /*maps*/
 /*dado a que mi proyecto se realizo en su totalidad con boostrap, por indicaciones de la profe, utilizaré un mixin y una variable ara que pueda ser evaluado.*/
 * {
