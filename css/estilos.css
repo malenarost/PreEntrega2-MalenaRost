@@ -5,14 +5,14 @@
 /*dado a que mi proyecto se realizo en su totalidad con boostrap, por indicaciones de la profe, utilizaré un mixin y una variable ara que pueda ser evaluado.*/
 * {
   font-family: "Archivo Black";
-  color: rgb(245, 243, 243);
+  color: rgb(246, 244, 244);
 }
 .nav {
   font-size: 1.5rem;
-  color: rgb(245, 243, 243);
+  color: rgb(249, 245, 245);
 }
 .cuerpo {
-  background-color: rgb(39, 106, 164);
+  background-color: rgb(26, 188, 156);
 }
 
 /*HEADER*/
